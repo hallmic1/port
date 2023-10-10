@@ -1,0 +1,17 @@
+.sidebar {
+  @apply flex flex-col flex-shrink-0 w-64 bg-gray-800 text-gray-100 p-2;
+  &__header {
+    @apply text-2xl;
+  }
+  &__content {
+    &__nav {
+      @apply flex flex-col pt-10;
+        &__item {
+          @apply text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium;
+          &--active {
+          @apply bg-gray-900 text-white;
+          }
+        }
+    }
+  }
+}

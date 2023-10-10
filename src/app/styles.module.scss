@@ -1,3 +1,6 @@
 .body {
-  @apply flex flex-row min-h-screen sm:flex-col w-1/5 bg-amber-400;
+  @apply flex flex-col min-h-screen sm:flex-row bg-[#CCCCCC] text-[#3D3D3E];
+  &__content {
+    @apply p-3 w-full;
+  }
 }

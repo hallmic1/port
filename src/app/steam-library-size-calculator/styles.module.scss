@@ -1,0 +1,12 @@
+.body {
+    @apply flex flex-col items-center justify-center w-full h-full;
+    &__content {
+        @apply flex flex-col items-center justify-center py-10 p-3 w-2/3 rounded shadow-xl;
+        &__progressBar {
+            @apply w-full h-1 rounded bg-amber-50;
+            &__progress {
+                @apply h-1 rounded bg-blue-950;
+            }
+        }
+    }
+}
