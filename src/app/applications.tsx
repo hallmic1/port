@@ -12,10 +12,10 @@ const applications: Application[] = [
     name: 'About',
     href: '/about'
   },
-  {
-    name: 'Steam Library Size Calculator',
-    href: '/steam-library-size-calculator'
-  }
+  // {
+  //   name: 'Steam Library Size Calculator',
+  //   href: '/steam-library-size-calculator'
+  // }
 ]
 
 export default applications
