@@ -1,5 +1,5 @@
 .sidebar {
-  @apply flex flex-col flex-shrink-0 w-64 bg-gray-800 text-gray-100 p-2;
+  @apply flex flex-col flex-shrink-0 w-full sm:w-64 bg-gray-800 text-gray-100 p-2;
   &__header {
     @apply text-2xl;
   }

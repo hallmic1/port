@@ -1,7 +1,7 @@
 'use client';
 import {useEffect, useState} from 'react';
 import styles from './styles.module.scss';
-import { getAllGames, getGameData} from "@/app/about/network";
+import { getAllGames, getGameData} from "./network";
 
 export default function SteamLibrarySizeCalculator() {
   const [storageRequirements, setStorageRequirements] = useState(0)

@@ -2,6 +2,7 @@ import './globals.css'
 import styles from './styles.module.scss'
 import type { Metadata } from 'next'
 import Sidebar from "@/app/sidebar";
+import {ReactNode} from "react";
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode
 }) {
   return (
     <html lang="en">

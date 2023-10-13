@@ -1,5 +1,5 @@
 .body {
-  @apply flex flex-col min-h-screen sm:flex-row bg-[#CCCCCC] text-[#3D3D3E];
+  @apply flex flex-col min-h-screen w-full sm:flex-row bg-[#CCCCCC] text-[#3D3D3E];
   &__content {
     @apply p-3 w-full;
   }

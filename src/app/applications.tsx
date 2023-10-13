@@ -9,8 +9,8 @@ const applications: Application[] = [
     href: '/'
   },
   {
-    name: 'About',
-    href: '/about'
+    name: 'Contact Me',
+    href: '/contact'
   },
   // {
   //   name: 'Steam Library Size Calculator',

@@ -1,0 +1,9 @@
+.textInput {
+  @apply w-full;
+  &__input {
+    @apply w-full p-2 m-2 border;
+    &_error {
+      @apply border-red-500;
+    }
+  }
+}
